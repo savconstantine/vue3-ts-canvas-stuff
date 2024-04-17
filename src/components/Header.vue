@@ -58,12 +58,17 @@ let isOpenMenu = ref(false);
         <RouterLink
           class="block px-2 py-1 text-gray-900 dark:text-white font-semibold sm:mt-0 sm:ml-2"
           to="/"
-          >Home</RouterLink
+          >Page 1</RouterLink
         >
         <RouterLink
           class="block px-2 py-1 text-gray-900 dark:text-white font-semibold sm:mt-0 sm:ml-2"
           to="/about"
-          >About</RouterLink
+          >Page 2</RouterLink
+        >
+        <RouterLink
+          class="block px-2 py-1 text-gray-900 dark:text-white font-semibold sm:mt-0 sm:ml-2"
+          to="/book-authors"
+          >Page 3</RouterLink
         >
         <div class="flex items-center justify-center sm:ml-4">
           <button

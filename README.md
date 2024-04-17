@@ -1,3 +1,5 @@
+# <a href="https://vue3-ts-canvas-stuff.vercel.app/" target="_blank" rel="noreferrer">Demo - https://vue3-ts-canvas-stuff.vercel.app/</a>
+
 # vue3-boilerplate
 
 This template should help get you started developing with Vue 3 in Vite.

@@ -1,8 +1,10 @@
 export function selectMany<T, V>(arr: T[], f: (elem: T) => V[]): V[] {
-  return arr.reduce((acc : V[], item): V[] => {
-    const result = f(item);
-    return [...acc, ...result];
-  }, [] as V[]);
+  return Array.from(new Set(
+    arr.reduce((acc : V[], item): V[] => {
+      const result = f(item);
+      return [...acc, ...result];
+    }, [] as V[])
+  ));
 }
 
 // EXAMPLE
