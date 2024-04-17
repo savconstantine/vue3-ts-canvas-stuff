@@ -33,7 +33,7 @@ let isDark = ref(hasDarkModeSetted());
       class="bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-100 min-h-screen flex flex-col justify-between"
     >
       <Header @toggleDarkMode="changeDarkLightMode" :isDark="isDark" />
-      <main class="max-w-screen-lg mx-auto">
+      <main class="max-w-screen-lg mx-auto w-full min-h-screen">
         <RouterView v-slot="{ Component }">
           <transition name="fade" mode="out-in">
             <component :is="Component" />
